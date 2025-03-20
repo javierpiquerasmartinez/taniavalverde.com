@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "taniavalverde.com",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.3"
+    "@tailwindcss/vite": "^4.0.14",
+    "astro": "^5.5.3",
+    "tailwindcss": "^4.0.14"
   }
 }
