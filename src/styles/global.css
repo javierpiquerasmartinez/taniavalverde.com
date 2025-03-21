@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --font-fallback: system-ui, sans-serif;
+  --font-primary: "Nunito";
+
+  /* Custom colors */
+  --color-primary: #F7CBCA;
+  --color-secondary: #DDD3D3;
+  --color-light: #F1F7F7;
+  --color-dark: #BDD7D8;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/nunito-variable.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  font-family: var(--font-primary), var(--font-fallback);
+}
