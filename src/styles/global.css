@@ -20,3 +20,7 @@
 html {
   font-family: var(--font-primary), var(--font-fallback);
 }
+
+@utility mask-fade-bottom {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
