@@ -1,58 +1,113 @@
 <section
-  class="bg-(--color-secondary) px-6 md:px-30 py-10 w-full flex flex-col gap-10"
+  class="bg-(--color-secondary) px-6 md:px-30 py-10 w-full flex flex-col gap-10 items-center"
 >
   <h1 class="text-4xl text-center">Te cuento un poco sobre mí...</h1>
-  <article class="flex flex-col gap-4">
-    <h2 class="text-2xl">Mi enfoque</h2>
-    <p>
-      En un campo donde la precisión salva vidas, combino tecnología de
-      vanguardia (mamografía digital, ecografía 3D, resonancia magnética
-      mamaria) con una atención humana y cercana. Entiendo la ansiedad que puede
-      generar un estudio mamario, por lo que priorizo la claridad en la
-      comunicación, el respeto a tus inquietudes y un ambiente cálido y seguro
-      durante cada consulta.
-    </p>
-  </article>
-  <article class="flex flex-col gap-4">
-    <h2 class="text-2xl">Servicios Principales</h2>
-    <p>
-      <ul>
-        <li>
-          Detección temprana de cáncer de mama: Mamografías preventivas y
-          diagnósticas.
-        </li>
-        <li>
-          Evaluación de síntomas: Bultos, dolor, secreciones o cambios en la
-          piel.
-        </li>
-        <li>
-          Estudios complementarios: Ecografía mamaria, elastografía, biopsias
-          guiadas por imagen (estereotáctica, ecografía o resonancia).
-        </li>
-        <li>
-          Seguimiento de pacientes de alto riesgo: Historia familiar, mutaciones
-          genéticas (BRCA).
-        </li>
-        <li>
-          Segunda opinión radiológica: Revisión de estudios previos para
-          confirmar diagnósticos.
-        </li>
-      </ul>
-    </p>
-  </article>
-  <article class="flex flex-col gap-4">
-    <h2 class="text-2xl">Prevención y educación</h2>
-    <p>
-      Creo firmemente en el empoderamiento mediante el conocimiento. En esta
-      web, compartiré:
-      <ul>
-        <li>Guías sobre autoexploración mamaria.</li>
-        <li>Artículos sobre avances en tecnología diagnóstica.</li>
-        <li>
-          Recomendaciones para reducir riesgos y mantener una salud mamaria
-          óptima.
-        </li>
-      </ul>
-    </p>
-  </article>
+
+  <div class="grid grid-cols-2 grid-rows-3 gap-4 max-w-300">
+    <div class="row-span-2 bg-(--color-light) rounded-4xl">
+      <header>
+        <img
+          class="rounded-t-4xl w-full"
+          src="/images/enfoque.webp"
+          alt="Imagen de una gota de agua enfocándose en el fondo que hay detrás"
+        />
+      </header>
+      <article class="flex flex-col gap-4 p-4">
+        <h2 class="text-2xl">Mi enfoque</h2>
+        <p>
+          En un campo donde la precisión salva vidas, combino tecnología de
+          vanguardia (mamografía digital, ecografía 3D, resonancia magnética
+          mamaria) con una atención humana y cercana. Entiendo la ansiedad que
+          puede generar un estudio mamario, por lo que priorizo la claridad en
+          la comunicación, el respeto a tus inquietudes y un ambiente cálido y
+          seguro durante cada consulta.
+        </p>
+      </article>
+    </div>
+    <div class="col-start-2 row-start-1 bg-(--color-light) rounded-4xl">
+      <header>
+        <img
+          class="rounded-t-4xl w-full"
+          src="/images/services.webp"
+          alt="Imagen de una gota de agua enfocándose en el fondo que hay detrás"
+        />
+      </header>
+      <article class="flex flex-col gap-4 p-4">
+        <h2 class="text-2xl">Servicios Principales</h2>
+        <p>
+          <ul>
+            <li>
+              Detección temprana de cáncer de mama: Mamografías preventivas y
+              diagnósticas.
+            </li>
+            <li>
+              Evaluación de síntomas: Bultos, dolor, secreciones o cambios en la
+              piel.
+            </li>
+            <li>
+              Estudios complementarios: Ecografía mamaria, elastografía,
+              biopsias guiadas por imagen (estereotáctica, ecografía o
+              resonancia).
+            </li>
+            <li>
+              Seguimiento de pacientes de alto riesgo: Historia familiar,
+              mutaciones genéticas (BRCA).
+            </li>
+            <li>
+              Segunda opinión radiológica: Revisión de estudios previos para
+              confirmar diagnósticos.
+            </li>
+          </ul>
+        </p>
+      </article>
+    </div>
+    <div class="col-start-2 row-start-2 bg-(--color-light) rounded-4xl">
+      <header>
+        <img
+          class="rounded-t-4xl w-full"
+          src="/images/prevencion.webp"
+          alt="Imagen de una gota de agua enfocándose en el fondo que hay detrás"
+        />
+      </header>
+      <article class="flex flex-col gap-4 p-4">
+        <h2 class="text-2xl">Prevención y educación</h2>
+        <p>
+          Creo firmemente en el empoderamiento mediante el conocimiento. En esta
+          web, compartiré:
+          <ul>
+            <li>Guías sobre autoexploración mamaria.</li>
+            <li>Artículos sobre avances en tecnología diagnóstica.</li>
+            <li>
+              Recomendaciones para reducir riesgos y mantener una salud mamaria
+              óptima.
+            </li>
+          </ul>
+        </p>
+      </article>
+    </div>
+    <div class="col-span-2 row-start-3 bg-(--color-light) rounded-4xl">
+      <header>
+        <img
+          class="rounded-t-4xl w-full"
+          src="/images/mamografia.webp"
+          alt="Imagen de una gota de agua enfocándose en el fondo que hay detrás"
+        />
+      </header>
+      <article class="flex flex-col gap-4 p-4">
+        <h2 class="text-2xl">Prevención y educación</h2>
+        <p>
+          Creo firmemente en el empoderamiento mediante el conocimiento. En esta
+          web, compartiré:
+          <ul>
+            <li>Guías sobre autoexploración mamaria.</li>
+            <li>Artículos sobre avances en tecnología diagnóstica.</li>
+            <li>
+              Recomendaciones para reducir riesgos y mantener una salud mamaria
+              óptima.
+            </li>
+          </ul>
+        </p>
+      </article>
+    </div>
+  </div>
 </section>
